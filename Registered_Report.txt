@@ -1,0 +1,65 @@
+What is present and absent from culturally normed 'good' as defined by high impact APA style journals.
+
+DOIs were all articles with the words 'systematic review' were abstracted from CrossRef using an API script.  From this, a random sample of 10 papers was sampled and each reviewer (N = 10) reviewed 2 of these in dyads.
+How will we assess quality
+
+1- Finalise search strategy/terms
+2- Develop data extraction sheet/ QA tool
+3- Registered Report
+
+In April 2019, medical journal 'The Gerontologist' provided guidelines for what should be included in a systematic review [@heyn2019methodological].  They separated it into 5 phases:
+Research Question; Protocol; Pre-registration
+Keywork search; Search strategy with librarian; biblographic information stored software...
+
+They distinguish between a narrative based review and a synthesis based review:
+Narrative based review is usually an opinion review based on a selection of the existing research; whereas a synthetic review refers to the systematic, protocol-driven approach to reviewing.
+In terms of levels of evidence, systematic reviews are regarded as the gold standard for reviewing: 
+
+
+Articles classified as 'Systematic reviews' are more common: For articles published in 2014, the respective numbers were28,959 systematic reviews and 9,135 meta-analyses \cite{ioannidis2016mass}.  The increase since 1991 is similar for both article types. In 13 years the number has increased from 410k in 1991 to more than double in 2014
+
+Essentially, a Systematic reviews aims to 'debias' the review process through strict adhearance to a transparent protocol that has been pre-registered [@ketcham2007impact; @moher2015preferred].  Aims to assess the presence of bias in Systematic (read, synthetic) reviews in the psychological literature.
+
+Some guidance articles exist for Psychology; for instance @perestelo2013standards provide five steps for producing a review.  These are heavily based on the PRISMA-P guidelines, and contain minimal information on how to conduct the steps in practice.  For instance; the authors suggest to use the Cochoran risk of bias tool; but suggest that a range of different methods be used to best fit the purpose.  We feel that this is suboptimal, because it introduces further bias to the procedure.  The method of assessing bias could be created so that the discussion is in favour of the research body or not.  One of the aims of this project is to assess and collate the different methods that have been used, specifically in Psychology, to address the risk of bias in studies.
+
+We define risk of bias as evidence (or lack of) in the reporting of artifacts that may influence the outcome of a test.  For instance, inadequate blinding or randomisation may result in selection bias, or the assignment of participants to a condition based on the researchers prior knowledge that the participant would respond in a particular way.  Cochoran includes five different sources of bias (see Table \@ref(tab:tab1).
+
+![Cochoran Risk of Bias Tool](cochROB.png) 
+ 
+Issues with reviews in science were first highlighted by @mulrow1987medical.  According to @ioannidis2016mass, this resulted in an improvement in the reporting of subsequent systematic reviews. Indeed, there is abundant guidance for 'un-biased' in the medical literature, along with tools, primers, and training videos.   reviews are  but also indicates that systematic reviews are currently being mass produced and many are essentially useless. 
+
+@mulrow1987medical first^[To our knowledge] researcher to apply a rigorous and systematic method to the reviewing of literature in healthcare science.  She found in a sample of 50 papers between 1985-1986 that methods sections were seldom included in the reviews, meta-analytical effect sizes were not supplied, and that there were issues with the reporting of qualitative syntheses.  They present examples of exemplary SRs, which included separation of effects into different methods, assessing bias, and the limitations of techniques and measurements.
+
+According to @ioannidis2016mass, there has been some progress in reporting and usefulness of SRs but the majority are still misleading, and plentiful.
+
+
+```{R, echo = FALSE}
+
+Method:  Inclusion for sampling based on circulation:  50,000 minumum.  From one year (1985-1986)
+From Mullen: All (N = 50) reviews were assessed with eight explicit criteria adaptedfrom published guidelines for information syntheses (2, 58, 59):
+
+Was the specific purpose of the review stated?
+Were sources and methods of the citation search identified?
+Were explicit guidelines provided that determined the material included in andexcluded from the review?
+Was a methodologic validity assessment of material in the review performed?
+Was the information systematically integrated with explication of data limitations and inconsistencies?
+Was the information integrated and weighted or pooled metrically?
+Was a summary of pertinent findings provided?
+Were specific directives for new research initiatives proposed?
+
+Each criterion was categorized as specified, unclear, or not specified."
+
+```
+
+## Methods
+
+### Pilot Study
+To assess the range and state of quality assessment in Systematic Reviews, a small sample of 50 reviews were randomly selected from all articles with systematic review or meta-analysis in the title from 7 of the highest impact journals across a range of fields in Psychology (table \@ref(tab:table2)
+
+```{R table2, echo = FALSE}
+
+```
+
+58. Policy Research Incorporated Literature Review Validation ProceduresManual. Baltimore: Policy Research Inc.: 1979.59. MULLEN PD, RAMIREZ G. Information synthesis and meta-analysis. In:Advances in Health Education
+
+LIGHT RJ, PILLEMAR DB. Summing Up: the Science of Reviewing Research.Cambridge, Massachusetts: Harvard University Press; 1984.

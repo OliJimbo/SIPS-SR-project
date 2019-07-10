@@ -5,11 +5,11 @@ library(rjson)
 library(stringr)
 
 ## PARAMETERS TO CHANGE
-queries <- c('systematic review', 'meta analysis', 'search strategy', 'narrative review')
+queries <- c('systematic review', 'meta-analysis')#, 'meta analysis', 'search strategy', 'narrative review')
 years = 2009:2010
-user_email = 'oliver.clark3@stu.mmu.ac.uk'
+user_email = 'olij85@googmail.com'
 ## read in the downloaded copy of the Google Spreadsheet
-issns <- read.csv('/Users/oliverclark/Downloads/cr-query-issn - Sheet1.csv', stringsAsFactors = FALSE)
+issns <- read.csv('/cr-query-issn - Sheet1.csv', stringsAsFactors = FALSE)
 
 ## Do Not CHANGE BELOW
 ## OUTPUT in working folder
